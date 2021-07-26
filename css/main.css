@@ -99,6 +99,8 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  background: url('../img/stars-background.jpg') center center no-repeat;
+  background-size: cover;
 }
 
 body {
@@ -119,13 +121,16 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  height: 300px;
+  font-size: 1.4em;
+  background-color: rgb(77, 0, 102, 50%);
+  border:rgb(77, 0, 102, 75%) 3px solid;
+  border-radius: 15px;
+  height: 350px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 
